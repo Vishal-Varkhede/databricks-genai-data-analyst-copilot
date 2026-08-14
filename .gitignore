@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Databricks
+.databricks/
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Local configuration
+config.local.py
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Generated data
+data/generated/
+data/output/
+
+# Temporary files
+tmp/
+temp/
+
+# MLflow local artifacts
+mlruns/
+
+# Python packaging
+dist/
+build/
+*.egg-info/
+
+# Secrets / credentials
+secrets/
+credentials/
